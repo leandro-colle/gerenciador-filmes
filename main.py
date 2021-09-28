@@ -24,7 +24,7 @@ def main(args):
 		print('6 - Listar filmes por diretor: [<option> "<director>"]')
 		print('7 - Listar atores coadjuvantes: [<option> "<actor>"]')
 		print('8 - Listar atores coadjuvantes: [<option> "<director>"]')
-		print('9 - Listar filmes duplicados [<option>]')
+		print('9 - Listar filmes duplicados: [<option>]')
 		sys.exit(0)
 
 	if action == '1' and params[0] in ['desc', 'asc']:
